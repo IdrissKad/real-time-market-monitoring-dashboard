@@ -1,0 +1,72 @@
+{
+  "name": "market-monitor-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^18.19.3",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    
+    "@mui/material": "^5.15.2",
+    "@mui/icons-material": "^5.15.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    
+    "recharts": "^2.8.0",
+    "lightweight-charts": "^4.1.1",
+    "socket.io-client": "^4.7.4",
+    "axios": "^1.6.2",
+    "react-query": "^3.39.3",
+    
+    "react-router-dom": "^6.20.1",
+    "react-hook-form": "^7.48.2",
+    "@hookform/resolvers": "^3.3.2",
+    "yup": "^1.4.0",
+    
+    "date-fns": "^2.30.0",
+    "numeral": "^2.0.6",
+    "lodash": "^4.17.21",
+    
+    "@reduxjs/toolkit": "^2.0.1",
+    "react-redux": "^9.0.4",
+    
+    "react-grid-layout": "^1.4.4",
+    "react-draggable": "^4.4.6",
+    "react-resizable": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/numeral": "^2.0.5",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write src/**/*.{ts,tsx,css}"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8000"
+}
